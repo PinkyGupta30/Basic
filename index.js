@@ -1,6 +1,8 @@
-const f = document.getElementsByClassName("fruit");
-f[2].style.backgroundColor = "yellow";
-for (let i = 0; i < f.length; i++)
+// Write your code below:
+const list = document.getElementsByTagName("li");
+for (let i = 0; i < list.length; i++)
 {
-    f[i].style.fontWeight = "bold";
+    console.log(list);
+    console.log(list.length);
+    list[i].style.backgroundColor = "green";
 }
